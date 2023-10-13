@@ -7,10 +7,10 @@ y = int(input("Ingresa el valor de y: "))
 punto = (x, y)
 
 #Mostramos el nuevo punto con las coordenadas ingresadas
-print(f"Punto ingresado: {punto}")
+print("Punto ingresado: ", punto)
 
 #Calculamos la distancia entre el punto y el origen utilizando la fórmula de la distancia euclidiana
 distancia = ((punto[0] - origen[0])**2 + (punto[1] - origen[1])**2)**0.5
 
 #Printeamos la distancia
-print(f"Distancia entre el origen y el punto ingresado: {distancia}")
+print("Distancia entre el origen y el punto ingresado:", distancia)
